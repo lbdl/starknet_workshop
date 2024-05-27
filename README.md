@@ -6,6 +6,15 @@ After completing each step, run the associated script to verify it has been impl
 
 Use the [Cairo book](https://book.cairo-lang.org/ch00-00-introduction.html) and the [Starknet docs](https://docs.starknet.io/documentation/) as a reference.
 
+## Original Repo
+
+This is lbdl's version of the excercise's. The original steps are left below but only the final pre deployment code is present im brnach `master` and the deployment for this is in branch `deploy`
+
+Please refer to the starknet repo to work through this yourself because the steps wont work right for you as we have changed the `.gitignore` file so the state of your repo wont work right
+nor in fact will you even be able to check out the steps as described below.
+
+It is here [starknet counter workhop repo](https://github.com/starknet-edu/counter-workshop)
+
 ## Setup
 
 Clone this repository and choose whether you prefer using Docker to manage global dependencies or not in the following steps:
@@ -566,3 +575,4 @@ const constructor = myCallData.compile("constructor", {
 2. Follow the instructions from the terminal
 
 If the script finishes successfully your smart contract is ready to be used on Starknet testnet. Congratulations!
+
